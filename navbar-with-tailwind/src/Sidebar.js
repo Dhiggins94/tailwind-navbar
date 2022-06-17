@@ -17,7 +17,7 @@ const Sidebar = () => {
   )
 }
 
-const SideBarIcon = ({ icon, text = 'tooltip works 💡' }) => (
+const SideBarIcon = ({ icon, text = 'Hellow Word, This tooltip works 💡' }) => (
   <div className="sidebar-icon group">
     {icon}
     <span class="sidebar-tooltip group-hover:scale-100">
