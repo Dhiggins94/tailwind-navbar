@@ -1,9 +1,9 @@
 import './App.css';
-
+import Sidebar from './Sidebar';
 function App() {
   return (
-    <div className="App">
-     HI
+    <div className="flex">
+     <Sidebar />
     </div>
   );
 }
